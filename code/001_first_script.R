@@ -11,3 +11,9 @@ cor.test(x,y)
 # one change
 
 # two changes
+
+data.sim <- data.frame(cbind(x,y))
+
+write.csv(data.sim,
+          file = "data/our_simulated_data.csv",
+          row.names = FALSE)
