@@ -7,3 +7,5 @@ y <- rnorm(mean=17, sd = 6, n = 1000)
 # and testing if the are correlated
 
 cor.test(x,y)
+
+# one change
