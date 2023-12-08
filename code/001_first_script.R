@@ -9,9 +9,9 @@ predictor <- c(rep("control",length(x)/2),
                rep("treatment",length(x)/2))
 
 
-# one change
-
 # two changes
+
+# three changes
 
 data.sim <- data.frame(cbind(x,y,predictor))
 
